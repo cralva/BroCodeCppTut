@@ -6,7 +6,7 @@
 // Use when there is a clear benefit
 // replaced with 'using' (word better w/ templates)
 
-#include <vector> //header file to include vectors for th examples
+#include <vector> //header file to include vectors for the examples
 
 typedef std::vector<std::pair<std::string, int>> pairlist_t; //typedef is what creates the typedef and the the last is what we are going to call it. we can use pairlist_t anywhere in the program to get the long object
 
@@ -18,9 +18,9 @@ using number_t = int;
 
 int main() {
 
-    std::vector<std::pair<std::string, int>> pairlist; //before using typedef
+    //std::vector<std::pair<std::string, int>> pairlist; //before using typedef
 
-    pairlist_t pairlist; //much easier doing this
+    pairlist_t pairlist; //much easier doing this//pairlist_t is the data type and pairList is the variable name
 
     text_t firstName = "Cristian"; //using typedef
 
