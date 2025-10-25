@@ -19,10 +19,12 @@ int main() {
 
     //c = sqrt(pow(a, 2) + pow(b, 2)); can replace the above code with this. it makes it shorter
 
-    std::cout << "side C: " << c;
+    std::cout << "side C: testingggg" << c;
 
 
 
 
     return 0;
 }
+
+//testing
