@@ -11,7 +11,7 @@ int main() {
     std::cout << "Enter your age: ";
     std::cin >> age;
 
-    if(age >= 100) {
+    if(age >= 100){
         std::cout << "You are too old for this site";
     }
 
