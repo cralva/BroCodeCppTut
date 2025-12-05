@@ -13,9 +13,11 @@ int main() {
         std::getline(std::cin, name);
     } //the condition gets check every time after the block and if its true then it gets repeated but if its false then the block gets skipped
 
-    while(1==1){
-        std::cout << "Help. we are stuck in an infinite loop!";
-    } //this is an infinite loop since there is no question condition to ask. bad
+    std::cout << "Hello " << name << std::endl;
+
+    // while(1==1) {
+    //     std::cout << "Help. we are stuck in an infinite loop!";
+    // } //this is an infinite loop since there is no question condition to ask. bad
 
     std::cout << "Hello " << name;
     return 0;
