@@ -2,8 +2,8 @@
 #include <ctime>
 
 int main() {
-    srand(time(0));
-    int randNum = rand() % 5 + 1;
+    srand(time(0)); //using 0 and NULL is the same thing
+    int randNum = (rand() % 5) + 1; //without the + 1 then our possible values are 0-5, by adding the + 1 then it changes to 1-6
 
     switch(randNum){
         case 1: std::cout << "You win a bumper sticker" << std::endl;
